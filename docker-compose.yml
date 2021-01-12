@@ -8,7 +8,7 @@ services:
     ports:
       - "4566:4566"
       - "4571:4571"
-      - "${PORT_WEB_UI-8080}:${PORT_WEB_UI-8080}"
+      - "${PORT_WEB_UI-8000}:${PORT_WEB_UI-8000}"
     environment:
       - SERVICES=${SERVICES- }
       - SERVICES=s3,ec2,apigateway
@@ -16,7 +16,7 @@ services:
       - DEBUG=1
       - DATA_DIR=${DATA_DIR- }
       - DATA_DIR=/tmp/localstack/data
-      - PORT_WEB_UI=8081
+      - PORT_WEB_UI=8000
       - LAMBDA_EXECUTOR=${LAMBDA_EXECUTOR- }
       - KINESIS_ERROR_PROBABILITY=${KINESIS_ERROR_PROBABILITY- }
       - DOCKER_HOST=unix:///var/run/docker.sock
