@@ -1,0 +1,24 @@
+{
+  "name": "localstack with S3 and Lambda",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "aws-sdk": "^2.825.0",
+    "dotenv": "^8.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shinobi247/AWS-Localstack.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shinobi247/AWS-Localstack/issues"
+  },
+  "homepage": "https://github.com/Shinobi247/AWS-Localstack#readme"
+}
