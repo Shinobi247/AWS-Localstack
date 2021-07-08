@@ -8,10 +8,10 @@ services:
     ports:
       - "4566:4566"
       - "4571:4571"
-      - "${PORT_WEB_UI-8000}:${PORT_WEB_UI-8000}"
+      - "${PORT_WEB_UI-8001}:${PORT_WEB_UI-8001}"
     environment:
       - SERVICES=${SERVICES- }
-      - SERVICES=s3,ec2,apigateway
+      - SERVICES=s3,ec2,apigateway,dynamodb
       - DEBUG=${DEBUG- }
       - DEBUG=1
       - DATA_DIR=${DATA_DIR- }

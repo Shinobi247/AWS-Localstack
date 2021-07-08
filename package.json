@@ -1,5 +1,5 @@
 {
-  "name": "localstack with S3 and Lambda",
+  "name": "localstack-with-S3-and-Lambda",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
